@@ -5,10 +5,17 @@ JOSS is a Java client for the [OpenStack Storage component](http://docs.openstac
 In order to use JOSS in your project, simply add the following dependency:
 
 ```xml
-        <dependency>
-            <groupId>org.javaswift</groupId>
-            <artifactId>joss</artifactId>
-            <version>0.9.16</version>
+      <repositories>
+      		<repository>
+      		    <id>jitpack.io</id>
+      		    <url>https://jitpack.io</url>
+      		</repository>
+      	</repositories>
+      	
+      	<dependency>
+        	    <groupId>com.github.kosbr</groupId>
+        	    <artifactId>joss</artifactId>
+        	    <version>0.9.16.1</version>
         </dependency>
 ```
 
